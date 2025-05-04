@@ -1,8 +1,8 @@
 {
-    "name": "org.furrusion.unityassets",
+    "name": "org.furrusion.vpm.public",
     "version": "1.0.0",
-    "displayName": "Furrusion Public Unity Assets",
-    "description": "A meta package that installs all Furrusion Public Unity tools and editor extensions.",
+    "displayName": "Furrusion Public Packages",
+    "description": "Unity Editor tools to inspect prefab variant inheritance chains — includes single and batch inspection modes.",
     "unity": "2022.3",
     "author": {
         "name": "Furrusion Inc.",
@@ -10,7 +10,6 @@
     },
     "type": "tool",
     "dependencies": {
-      "org.furrusion.prefabtools": "https://github.com/furrusion/unity-prefab-tools.git"
+      "org.furrusion.prefabtools": "https://github.com/furrusion/vpm-public-packages.git"
     }
-  }
-  
+}
