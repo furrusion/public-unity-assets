@@ -1,0 +1,16 @@
+{
+    "name": "org.furrusion.unityassets",
+    "version": "1.0.0",
+    "displayName": "Furrusion Public Unity Assets",
+    "description": "A meta package that installs all Furrusion Public Unity tools and editor extensions.",
+    "unity": "2022.3",
+    "author": {
+        "name": "Furrusion Inc.",
+        "url": "https://github.com/furrusion"
+    },
+    "type": "tool",
+    "dependencies": {
+      "org.furrusion.prefabtools": "https://github.com/furrusion/unity-prefab-tools.git"
+    }
+  }
+  
